@@ -1,0 +1,24 @@
+{
+  "name": "login1",
+  "version": "1.0.0",
+  "description": "Objective of this project is to create a basic login system, whose back-end will be written in Node.js using Express framework and it will render HTML pages for registering users and allowing them to login. But we won’t be dealing with sessions in this article. Typically, this type of project needs a database to store the credentials. But, we won’t use that as well, as this project is only to give an overview of login system. So, we’ll be using arrays to store the user credentials. Once, we shut down the server, all the credentials will be deleted.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souvik-pl/login1.git"
+  },
+  "author": "souvik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souvik-pl/login1/issues"
+  },
+  "homepage": "https://github.com/souvik-pl/login1#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
